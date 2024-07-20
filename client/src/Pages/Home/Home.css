@@ -1,0 +1,126 @@
+.home {
+  width: 100%;
+  height: 84vh;
+  background-color: #e4e9eb;
+  padding: 15px 50px;
+}
+.home .home-wrapper > button {
+  width: 15rem;
+  height: 2rem;
+  background-color: #006da4;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.home .home-task-searchbar {
+  margin-top: 15px;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(238, 242, 242);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+}
+.search-input > input {
+  height: 1.8rem;
+  padding: 0px 15px;
+  color: grey;
+  font-size: 1rem;
+  outline-color: rgba(0, 0, 0, 0.2);
+  border-color: rgba(0, 0, 0, 0.2);
+  background-color: rgb(238, 242, 242);
+  border-radius: 10px;
+}
+
+.todo-task-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 65vh;
+  margin-top: 15px;
+  gap: 20px;
+}
+
+.todo-tasks {
+  flex: 4;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 15px;
+ 
+}
+.todo-tasks-container-scroll{
+    position: relative;
+    overflow-y: scroll;
+}
+.todo-tasks-container-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.todo-main-title {
+  height: 2rem;
+  padding: 10px;
+  background-color: #006da4;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+
+}
+.todo-task-container{
+  height: 12rem;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #c4d3ec;
+}
+.todo-tasks-title>p{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    color: rgba(99, 99, 99);
+}
+
+.todo-tasks-title>h3,
+.todo-task-container>span{
+    color: rgba(99, 99, 99);
+}
+
+.todo-tasks-buttons{
+    display: flex;
+    justify-content: end;
+}
+
+.todo-tasks-buttons>button{
+    height: 1.5rem;
+    margin:0px 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+.todo-tasks-buttons .btn1{
+    width: 4rem;
+background-color: tomato;
+}
+.todo-tasks-buttons .btn2{
+    width: 3rem;
+    background-color: rgb(95, 145, 243);
+}
+.todo-tasks-buttons .btn3{
+    width: 5.5rem;
+    background-color: rgb(8, 99, 235);
+}

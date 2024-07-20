@@ -1,0 +1,17 @@
+.footer-container{
+    display: grid;
+    place-items:center;
+    width: 100vw;
+    height: 6vh;
+    background: rgb(77, 102, 136);
+    background: radial-gradient(
+      circle,
+      rgb(104, 126, 157) 0%,
+      rgba(0, 109, 164, 1) 100%
+    );
+  }
+
+  .footer-wrapper>h5{
+   color: white;
+   font-family: 'Courier New', Courier, monospace;
+  }
